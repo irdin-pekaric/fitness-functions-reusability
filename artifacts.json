@@ -1,0 +1,14 @@
+{
+"artifacts": {
+	"artifact_1": {
+		"title": "We provide our resources in a dedicated repository",
+		"uri": "https://github.com/hihey54/hicss58",
+		"description": "This repository..."
+	},
+	"artifact_2": {
+		"title": "Trending Customer Dataset",
+		"uri": "https://github.com/githubkilroy/TCN-Dataset",
+		"description": "This repository..."
+	}
+}
+}
