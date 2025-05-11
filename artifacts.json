@@ -9,6 +9,11 @@
 		"title": "Trending Customer Dataset",
 		"uri": "https://github.com/githubkilroy/TCN-Dataset",
 		"description": "This repository..."
+	},
+	"artifact_3": {
+		"title": "Python algorithms",
+		"uri": "https://github.com/TheAlgorithms/Python",
+		"description": "This repository..."
 	}
 }
 }
