@@ -13,7 +13,15 @@ The goal is to help researchers, repository maintainers, and automated tools qui
 
 ## Structure
 
-<pre> ``` . ├── check_findability.py ├── check_accessibility.py ├── check_interoperability.py ├── check_reproducibility.py ├── artifacts.json └── README.md ``` </pre>
+<pre>
+.
+├── check_findability.py
+├── check_accessibility.py
+├── check_interoperability.py
+├── check_reproducibility.py
+├── artifacts.json
+└── README.md
+</pre>
 
 
 ## Prerequisites
