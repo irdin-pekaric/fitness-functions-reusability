@@ -8,6 +8,24 @@ This repository provides a modular framework for assessing the **FAIRness** of r
 The goal is to help researchers, repository maintainers, and automated tools quickly evaluate the usability and sustainability of digital artifacts.
 
 ---
+
+## FindabilityChecker
+
+The *FindabilityChecker* ensures that research software artifacts can be located through persistent and resolvable identifiers.
+
+- **Environment setup**  
+  Uses Python networking libraries (e.g., `requests`, `urllib`) to issue HTTP requests. A clean runtime environment is sufficient; no additional dependencies are required beyond basic connectivity.  
+
+- **Verification steps**  
+  1. Attempts to dereference the provided artifact identifier (DOI, GitHub URL, Zenodo record, etc.).  
+  2. Checks for a valid HTTP status code (200-series responses are considered successful).  
+  3. Flags redirects, dead links, or malformed URIs.  
+  4. Optionally queries metadata services (e.g., DOI resolution) to confirm that identifiers return structured metadata.  
+
+This ensures that artifacts are not only “linkable” but also reliably discoverable through standard infrastructure.  
+
+---
+
 ## AccessibilityChecker
 
 The *AccessibilityChecker* confirms that artifacts are not just identifiable but also retrievable in practice.
