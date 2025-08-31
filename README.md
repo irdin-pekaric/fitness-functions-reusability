@@ -3,7 +3,7 @@
 This repository provides a modular framework for assessing the **FAIRness** of research software artifacts based on their metadata and repository structure. Each **FAIRness** fitness function is implemented as an independent module, but all share a common design pattern:
 
 1. **Environment setup** – establishing the conditions for executing the checks (e.g., creating a temporary directory, setting up a containerized runtime, or using standard Python libraries).  
-2. **Verification steps** – defining the concrete operations used to test the FAIR criterion, and how success/failure is lo
+2. **Verification steps** – defining the concrete operations used to test the FAIR criterion, and how success/failure is logged.
 
 The goal is to help researchers, repository maintainers, and automated tools quickly evaluate the usability and sustainability of digital artifacts.
 
