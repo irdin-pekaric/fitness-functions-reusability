@@ -1,19 +1,54 @@
 {
-"artifacts": {
-	"artifact_1": {
-		"title": "We provide our resources in a dedicated repository",
-		"uri": "https://github.com/hihey54/hicss58",
-		"description": "This repository..."
-	},
-	"artifact_2": {
-		"title": "Trending Customer Dataset",
-		"uri": "https://github.com/githubkilroy/TCN-Dataset",
-		"description": "This repository..."
-	},
-	"artifact_3": {
-		"title": "Python algorithms",
-		"uri": "https://github.com/TheAlgorithms/Python",
-		"description": "This repository..."
-	}
-}
+  "artifacts": {
+    "artifact_1": {
+      "title": "We provide our resources in a dedicated repository",
+      "uri": "https://github.com/hihey54/hicss58",
+      "description": "This repository..."
+    },
+    "artifact_2": {
+      "title": "Trending Customer Dataset",
+      "uri": "https://github.com/githubkilroy/TCN-Dataset",
+      "description": "This repository..."
+    },
+    "artifact_3": {
+      "title": "Python algorithms",
+      "uri": "https://github.com/TheAlgorithms/Python",
+      "description": "Collection of algorithms implemented in Python for educational purposes."
+    },
+    "artifact_4": {
+      "title": "Scikit-learn",
+      "uri": "https://github.com/scikit-learn/scikit-learn",
+      "description": "A widely used Python library for machine learning, featuring classification, regression, clustering, and preprocessing."
+    },
+    "artifact_5": {
+      "title": "Pandas",
+      "uri": "https://github.com/pandas-dev/pandas",
+      "description": "Powerful data structures for data analysis, time series, and statistics in Python."
+    },
+    "artifact_6": {
+      "title": "NumPy",
+      "uri": "https://github.com/numpy/numpy",
+      "description": "The fundamental package for scientific computing with Python, supporting arrays, matrices, and mathematical functions."
+    },
+    "artifact_7": {
+      "title": "Matplotlib",
+      "uri": "https://github.com/matplotlib/matplotlib",
+      "description": "Comprehensive library for creating static, animated, and interactive visualizations in Python."
+    },
+    "artifact_8": {
+      "title": "Scrapy",
+      "uri": "https://github.com/scrapy/scrapy",
+      "description": "An open-source and collaborative web crawling framework for Python."
+    },
+    "artifact_9": {
+      "title": "Flask",
+      "uri": "https://github.com/pallets/flask",
+      "description": "A lightweight WSGI web application framework for Python."
+    },
+    "artifact_10": {
+      "title": "TensorFlow",
+      "uri": "https://github.com/tensorflow/tensorflow",
+      "description": "An end-to-end open-source platform for machine learning, supporting deep learning workflows in Python."
+    }
+  }
 }
