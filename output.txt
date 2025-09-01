@@ -1,0 +1,321 @@
+Findability:
+
+Artifact artifact_1 is findable: https://github.com/hihey54/hicss58
+Artifact artifact_2 is NOT findable: https://github.com/githubkilroy/TCN-Dataset
+Artifact artifact_3 is findable: https://github.com/TheAlgorithms/Python
+Artifact artifact_4 is findable: https://github.com/scikit-learn/scikit-learn
+Artifact artifact_5 is findable: https://github.com/pandas-dev/pandas
+Artifact artifact_6 is findable: https://github.com/numpy/numpy
+Artifact artifact_7 is findable: https://github.com/matplotlib/matplotlib
+Artifact artifact_8 is findable: https://github.com/scrapy/scrapy
+Artifact artifact_9 is findable: https://github.com/pallets/flask
+Artifact artifact_10 is findable: https://github.com/tensorflow/tensorflow
+
+
+Accessibility:
+
+
+🔍 Checking artifact: artifact_1
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_1
+🔗 Repo URL: https://github.com/hihey54/hicss58
+📁 Cloned to: downloads\hicss58
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_2
+❌ Failed to clone repository https://github.com/githubkilroy/TCN-Dataset
+
+🔍 Checking artifact: artifact_3
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_3
+🔗 Repo URL: https://github.com/TheAlgorithms/Python
+📁 Cloned to: downloads\Python
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_4
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_4
+🔗 Repo URL: https://github.com/scikit-learn/scikit-learn
+📁 Cloned to: downloads\scikit-learn
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_5
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_5
+🔗 Repo URL: https://github.com/pandas-dev/pandas
+📁 Cloned to: downloads\pandas
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_6
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_6
+🔗 Repo URL: https://github.com/numpy/numpy
+📁 Cloned to: downloads\numpy
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_7
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_7
+🔗 Repo URL: https://github.com/matplotlib/matplotlib
+📁 Cloned to: downloads\matplotlib
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_8
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_8
+🔗 Repo URL: https://github.com/scrapy/scrapy
+📁 Cloned to: downloads\scrapy
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_9
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_9
+🔗 Repo URL: https://github.com/pallets/flask
+📁 Cloned to: downloads\flask
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+🔍 Checking artifact: artifact_10
+
+🚀 Artifact Accessible: Git repository detected.
+📦 Artifact ID: artifact_10
+🔗 Repo URL: https://github.com/tensorflow/tensorflow
+📁 Cloned to: downloads\tensorflow
+✨✨✨ GIT REPO READY FOR EXPLORATION ✨✨✨
+
+
+
+Interoperability:
+
+✅ Python found at: C:\Users\AppData\Local\Microsoft\WindowsApps\python.EXE (Windows)
+🖥️ Local Python Version: 3.12
+
+🔧 Interoperability Check for artifact_1 (https://github.com/hihey54/hicss58):
+ - Python interpreter invoked in repo: False
+ - requirements.txt: True
+ - All requirements installed locally: 
+  requests>=2.31.0 ✅
+  beautifulsoup4>=4.12.3 ✅
+  PyMuPDF>=1.23.20 ❌ Not installed
+ - Python version specified: Not specified
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_2 (https://github.com/githubkilroy/TCN-Dataset):
+ - Python interpreter invoked in repo: False
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: Not specified
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_3 (https://github.com/TheAlgorithms/Python):
+ - Python interpreter invoked in repo: True
+ - requirements.txt: True
+ - All requirements installed locally: 
+  beautifulsoup4 ✅
+  httpx ✅
+  typing_extensions ✅
+  fake-useragent ❌ Not installed
+  imageio ❌ Not installed
+  keras ❌ Not installed
+  lxml ❌ Not installed
+  matplotlib ❌ Not installed
+  numpy ❌ Not installed
+  opencv-python ❌ Not installed
+  pandas ❌ Not installed
+  pillow ❌ Not installed
+  rich ❌ Not installed
+  scikit-learn ❌ Not installed
+  sphinx-pyproject ❌ Not installed
+  statsmodels ❌ Not installed
+  sympy ❌ Not installed
+  tweepy ❌ Not installed
+  xgboost ❌ Not installed
+ - Python version specified: 4.10
+ - Version compatible with local: ❌
+
+🔧 Interoperability Check for artifact_4 (https://github.com/scikit-learn/scikit-learn):
+ - Python interpreter invoked in repo: True
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: 0.17
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_5 (https://github.com/pandas-dev/pandas):
+ - Python interpreter invoked in repo: True
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: 0.13
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_6 (https://github.com/numpy/numpy):
+ - Python interpreter invoked in repo: True
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: 0.18
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_7 (https://github.com/matplotlib/matplotlib):
+ - Python interpreter invoked in repo: True
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: 0.13
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_8 (https://github.com/scrapy/scrapy):
+ - Python interpreter invoked in repo: True
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: Not specified
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_9 (https://github.com/pallets/flask):
+ - Python interpreter invoked in repo: False
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: Not specified
+ - Version compatible with local: ✅
+
+🔧 Interoperability Check for artifact_10 (https://github.com/tensorflow/tensorflow):
+ - Python interpreter invoked in repo: False
+ - requirements.txt: False
+ - All requirements installed locally: requirements.txt not found
+ - Python version specified: Not specified
+ - Version compatible with local: ✅
+
+
+Reproducibility:
+
+📦 Artifact artifact_1 (https://github.com/hihey54/hicss58):
+ - Python-based: ❌
+ - README.md: ✅
+ - LICENSE: ✅
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ❌
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_2 (https://github.com/githubkilroy/TCN-Dataset):
+ - Python-based: ❌
+ - README.md: ❌
+ - LICENSE: ❌
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ❌
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_3 (https://github.com/TheAlgorithms/Python):
+ - Python-based: ❌
+ - README.md: ❌
+ - LICENSE: ❌
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ❌
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_4 (https://github.com/scikit-learn/scikit-learn):
+ - Python-based: ✅
+ - README.md: ❌
+ - LICENSE: ❌
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ✅
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ✅
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_5 (https://github.com/pandas-dev/pandas):
+ - Python-based: ✅
+ - README.md: ✅
+ - LICENSE: ✅
+ - environment.yml: ✅
+ - Dockerfile: ✅
+ - setup.py or pyproject.toml: ✅
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ✅
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_6 (https://github.com/numpy/numpy):
+ - Python-based: ✅
+ - README.md: ✅
+ - LICENSE: ✅
+ - environment.yml: ✅
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ✅
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_7 (https://github.com/matplotlib/matplotlib):
+ - Python-based: ✅
+ - README.md: ✅
+ - LICENSE: ❌
+ - environment.yml: ✅
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ✅
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ✅
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_8 (https://github.com/scrapy/scrapy):
+ - Python-based: ❌
+ - README.md: ❌
+ - LICENSE: ❌
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ❌
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_9 (https://github.com/pallets/flask):
+ - Python-based: ✅
+ - README.md: ✅
+ - LICENSE: ✅
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ✅
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
+
+📦 Artifact artifact_10 (https://github.com/tensorflow/tensorflow):
+ - Python-based: ❌
+ - README.md: ❌
+ - LICENSE: ❌
+ - environment.yml: ❌
+ - Dockerfile: ❌
+ - setup.py or pyproject.toml: ❌
+ - CI config (.github/workflows/, .gitlab-ci.yml): ❌
+ - Jupyter Notebooks (*.ipynb): ❌
+ - CITATION.cff: ❌
+ - Version Control (.git): ✅
