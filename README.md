@@ -1,5 +1,17 @@
 # FAIR Artifact Checker
 
+This is the repository of the paper _"Sustaining Research Software: A Fitness Function Approach"_, accepted to the 59th Hawaii International Conference on System Sciences (HICSS'59).
+If you use any of our resources, you are kindly invited to cite our paper:
+
+```
+@inproceedings{pekaric2026llms,
+    title={{Sustaining Research Software: A Fitness Function Approach}},
+    author={Zech, Philipp and Pekaric, Irdin},
+    booktitle={Proc. Hawaii International Conference on System Sciences (HICSS)},
+    year={2026}
+}
+```
+
 This repository provides a modular framework for assessing the **FAIRness** of research software artifacts based on their metadata and repository structure. Each **FAIRness** fitness function is implemented as an independent module, but all share a common design pattern:
 
 1. **Environment setup** – establishing the conditions for executing the checks (e.g., creating a temporary directory, setting up a containerized runtime, or using standard Python libraries).  
