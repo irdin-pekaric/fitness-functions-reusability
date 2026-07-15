@@ -4,7 +4,7 @@ This is the repository of the paper _"Sustaining Research Software: A Fitness Fu
 If you use any of our resources, you are kindly invited to cite our paper:
 
 ```
-@inproceedings{pekaric2026llms,
+@inproceedings{pekaric2026fitness,
     title={{Sustaining Research Software: A Fitness Function Approach}},
     author={Zech, Philipp and Pekaric, Irdin},
     booktitle={Proc. Hawaii International Conference on System Sciences (HICSS)},
